@@ -5183,7 +5183,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="88.9" y1="60.96" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="PA7" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="(PCINT7/ICP/OC0B/ADC7)PA7"/>
 <wire x1="71.12" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
@@ -5196,7 +5196,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <junction x="96.52" y="71.12"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="PA3" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="(PCINT3/T0/ADC3)PA3"/>
 <wire x1="71.12" y1="60.96" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
@@ -5207,7 +5207,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="99.06" y1="63.5" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="PA2" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="(PCINT2/AIN1/ADC2)PA2"/>
 <wire x1="71.12" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
@@ -5218,7 +5218,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="101.6" y1="66.04" x2="119.38" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="PA1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="(PCINT1/AIN0/ADC1)PA1"/>
 <wire x1="71.12" y1="55.88" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
@@ -5229,7 +5229,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="104.14" y1="68.58" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="PA0" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="(PCINT0/AREF/ADC0)PA0"/>
 <wire x1="71.12" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
@@ -5240,7 +5240,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="106.68" y1="71.12" x2="119.38" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="PB2" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="(PCINT10/INT0/OC0A/CKOUT)PB2"/>
 <wire x1="71.12" y1="81.28" x2="134.62" y2="81.28" width="0.1524" layer="91"/>
