@@ -4985,13 +4985,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X8" device=""/>
-<part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="H1" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.0"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="H2" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.0"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
+<part name="P+3" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5012,13 +5012,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="GND3" gate="1" x="20.32" y="50.8"/>
 <instance part="P+1" gate="1" x="20.32" y="86.36"/>
 <instance part="JP1" gate="A" x="121.92" y="63.5"/>
-<instance part="GND1" gate="1" x="127" y="50.8"/>
 <instance part="P+2" gate="1" x="127" y="73.66"/>
 <instance part="GND2" gate="1" x="129.54" y="68.58" rot="R90"/>
 <instance part="H1" gate="G$1" x="99.06" y="127" rot="R90"/>
 <instance part="GND6" gate="1" x="99.06" y="121.92"/>
 <instance part="H2" gate="G$1" x="111.76" y="127" rot="R90"/>
 <instance part="GND7" gate="1" x="111.76" y="121.92"/>
+<instance part="P+3" gate="1" x="127" y="50.8" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -5045,10 +5045,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="A" pin="16"/>
-<pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="4"/>
@@ -5092,6 +5088,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="16"/>
+<pinref part="P+3" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="PB0/XTAL1" class="0">
