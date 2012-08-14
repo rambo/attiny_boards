@@ -125,6 +125,7 @@
 <text x="22.225" y="17.145" size="0.7112" layer="26" font="vector" rot="MR0">led (top) optional</text>
 <text x="28.702" y="12.954" size="0.7112" layer="25" font="vector" rot="R90">10uF</text>
 <text x="28.956" y="1.905" size="0.7112" layer="25" font="vector">10uF</text>
+<text x="27.813" y="10.541" size="0.8128" layer="26" rot="MR0">12pF caps for xtal</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -1920,12 +1921,6 @@ design rules under a new name.</description>
 <wire x1="16.4592" y1="4.3688" x2="16.383" y2="4.318" width="0.1524" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="3,1,1f02dec2de431f83"/>
-<approved hash="3,16,1f02dec2de431f83"/>
-<approved hash="18,29,760172f17a917e61"/>
-<approved hash="18,29,4cd144494c5744cf"/>
-</errors>
 </board>
 </drawing>
 </eagle>
