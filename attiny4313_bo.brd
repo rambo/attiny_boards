@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="196.850394" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="196.850394" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -120,7 +120,7 @@
 <text x="37.338" y="7.874" size="0.7112" layer="26" font="vector" rot="MR0">PB7 PB6 PB5 PB4 PB3 PB2 PB1 PB0 PA1 PA0</text>
 <text x="37.211" y="0.635" size="0.762" layer="26" font="vector" rot="MR0">5V RX TX PD2 PD3 PD4 PD5 PD6 GND 5V</text>
 <text x="12.319" y="7.874" size="0.7112" layer="25" font="vector">PA0 PA1 PB0 PB1 PB2 PB3 PB4 PB5 PB6 PB7</text>
-<text x="12.7" y="0.762" size="0.762" layer="25" font="vector">5V GND PD6 PD5 PD4 PD3 PD2 RX TX 5V</text>
+<text x="12.7" y="0.762" size="0.7112" layer="25" font="vector">5V  GND PD6 PD5 PD4 PD3 PD2 RX TX  5V</text>
 <text x="18.288" y="14.097" size="0.7112" layer="26" font="vector" rot="MR0">XTAL optional</text>
 <text x="18.288" y="12.446" size="0.7112" layer="26" font="vector" rot="MR0">led (top) optional</text>
 <text x="8.763" y="3.302" size="0.7112" layer="25" font="vector" rot="R90">10uF</text>
