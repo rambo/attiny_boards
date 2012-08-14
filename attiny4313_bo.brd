@@ -121,11 +121,11 @@
 <text x="37.211" y="0.635" size="0.762" layer="26" font="vector" rot="MR0">5V RX TX PD2 PD3 PD4 PD5 PD6 GND 5V</text>
 <text x="12.319" y="7.874" size="0.7112" layer="25" font="vector">PA0 PA1 PB0 PB1 PB2 PB3 PB4 PB5 PB6 PB7</text>
 <text x="12.7" y="0.762" size="0.7112" layer="25" font="vector">5V  GND PD6 PD5 PD4 PD3 PD2 RX TX  5V</text>
-<text x="18.288" y="14.097" size="0.7112" layer="26" font="vector" rot="MR0">XTAL optional</text>
-<text x="18.288" y="12.446" size="0.7112" layer="26" font="vector" rot="MR0">led (top) optional</text>
+<text x="28.448" y="18.542" size="0.7112" layer="26" font="vector" rot="MR0">XTAL optional</text>
+<text x="12.954" y="16.129" size="0.7112" layer="25" font="vector" rot="R270">led optional</text>
 <text x="8.763" y="3.302" size="0.7112" layer="25" font="vector" rot="R90">10uF</text>
 <text x="34.29" y="10.16" size="0.7112" layer="25" font="vector" rot="R90">10uF</text>
-<text x="18.415" y="15.748" size="0.8128" layer="26" rot="MR0">12pF caps for xtal</text>
+<text x="29.845" y="17.145" size="0.7112" layer="26" rot="MR0">12pF caps for xtal</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -1752,6 +1752,7 @@ design rules under a new name.</description>
 <via x="32.258" y="15.875" extent="1-16" drill="0.3048"/>
 <via x="14.986" y="18.669" extent="1-16" drill="0.3048"/>
 <via x="14.224" y="14.478" extent="1-16" drill="0.3048"/>
+<via x="30.988" y="9.017" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="+5V" class="1">
 <contactref element="J1" pad="2"/>
@@ -2158,8 +2159,8 @@ design rules under a new name.</description>
 <approved hash="18,29,e183b640ebdd4ef4"/>
 <approved hash="18,29,b0c717de79e82c1b"/>
 <approved hash="18,29,cd859a7ce1e744f4"/>
-<approved hash="18,29,21887678a511000b"/>
 <approved hash="18,29,a8f4f2c4eb62c49f"/>
+<approved hash="18,29,21887678a511000b"/>
 <approved hash="18,29,2b9de4abe4842bb2"/>
 <approved hash="18,29,b7f4fb23f54d91a1"/>
 <approved hash="18,29,00e7c029c00600c8"/>
@@ -2175,26 +2176,26 @@ design rules under a new name.</description>
 <approved hash="18,29,f958d334d90f86ae"/>
 <approved hash="18,29,80332709676b32bb"/>
 <approved hash="18,29,4124a9b1c8eb13a0"/>
+<approved hash="18,29,2a1bc205e03c4a26"/>
+<approved hash="18,29,2dabf005dc22422e"/>
 <approved hash="18,29,c3981da4bd8723b8"/>
 <approved hash="18,29,c29fdccd7fb1227d"/>
-<approved hash="18,29,2dabf005dc22422e"/>
-<approved hash="18,29,2a1bc205e03c4a26"/>
 <approved hash="18,29,64580a060a1b6445"/>
 <approved hash="18,29,24248a7a899b27c5"/>
-<approved hash="18,29,4cfd1625b3899c9c"/>
 <approved hash="18,29,e1834b730c1e6307"/>
+<approved hash="18,29,4cfd1625b3899c9c"/>
 <approved hash="18,29,ab9c810e18b347ec"/>
-<approved hash="18,29,0b96f88799598a4b"/>
 <approved hash="18,29,10f4ef7c62977f59"/>
+<approved hash="18,29,0b96f88799598a4b"/>
+<approved hash="18,29,4798f784871f956a"/>
 <approved hash="18,29,923cde0c5c96f2f7"/>
 <approved hash="18,29,13019c9570045dfc"/>
-<approved hash="18,29,4798f784871f956a"/>
 <approved hash="18,29,8702b817ea12b56f"/>
 <approved hash="18,29,44504202421e444c"/>
 <approved hash="18,29,042cc27ec19e07cc"/>
-<approved hash="18,29,fd4d24f318a4f2c4"/>
-<approved hash="18,29,737734fba8192cf5"/>
 <approved hash="18,29,e0cc301e3f96ef44"/>
+<approved hash="18,29,737734fba8192cf5"/>
+<approved hash="18,29,fd4d24f318a4f2c4"/>
 <approved hash="18,29,43fcab84b5486eee"/>
 <approved hash="18,29,9c8890b1210f6000"/>
 <approved hash="18,29,098114e2e42af6c9"/>
