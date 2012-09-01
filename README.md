@@ -7,6 +7,12 @@ The SMD parts are cheaper than DIP and I've grown tired of drilling holes
 anyway, besides this way I can add some essential supporting hardware like
 bypass caps and the ISP header on the same board (optionally also xtal)
 
+Arduino support for these chips is available from the [arduino-tiny](http://code.google.com/p/arduino-tiny/) project, 
+see also [this tutorial](http://hlt.media.mit.edu/?p=1695) by High-Low Tech.
+
+I personally have found using the ArduinoISP a bit hit-and-miss, so I suggest investing on a proper ISP (some of the clones work better
+than others but I decided to get a genuine AVRISPmkII after spending an evening battling with ArduinoISP)
+
 ## The designs
 
   - attiny85_bo_1l.brd: this is a very quick design for ATTiny25/45/85 chips meant to be etched at home, thus in one layer. [Picture](https://picasaweb.google.com/117987945710555324615/Photoblog#5775454542780799554).
