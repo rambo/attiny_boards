@@ -16,7 +16,7 @@ than others but I decided to get a genuine AVRISPmkII after spending an evening 
 ## The designs
 
   - attiny85_bo_1l.brd: this is a very quick design for ATTiny25/45/85 chips meant to be etched at home, thus in one layer. [Picture](https://picasaweb.google.com/117987945710555324615/Photoblog#5775454542780799554).
-  - attiny85_bo.brd: A two-layer design for ATTiny25/45/85 chips that should be generally quite usable. [Picture](https://picasaweb.google.com/117987945710555324615/Photoblog#5777290552370322018)
+  - attiny85_bo.brd: A two-layer design for ATTiny25/45/85 chips that should be generally quite usable. [Picture](https://picasaweb.google.com/117987945710555324615/Photoblog#5777290552370322018).
     - First revisions of the board had a silkscreen error, PB1 and PB2 were reversed (my bad).
     - For some reason the very first revision has much nicer silkscreen than the next, they were (likely) manufactured in different batches but I should doublecheck line widths etc.
   - attiny4313_bo.brd: A two-layer design (with a lot of vias so not really doable at home).
@@ -29,6 +29,6 @@ than others but I decided to get a genuine AVRISPmkII after spending an evening 
 ## TODO
 
   - Add diodes to protect against reverse and over -voltage (with indicator led ?)
-  - In the 85/84 boards move the ISP header a bit farther away from the port header so there's room for connectors
-  - simple board to break the ISP header into normal 2.54mm pitch pogo-pins in the same order (those pins unfortunately do not fit
-    into the cable connector directly), this I might simply do with stripboard.
+  - In the 85/84 boards move the ISP header a bit farther away from the port header so there's room for both connectors while having both headers on the same side of the board.
+  - simple board to break the ISP header into normal 2.54mm pitch pogo-pins in the same order (those pins unfortunately do not fit)
+    into the cable connector directly), did this on stripboard and then realized dotboard would have been much better.
