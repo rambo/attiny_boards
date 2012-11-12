@@ -5051,7 +5051,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="CX0" library="rcl" deviceset="C-EU" device="C0603" value="22pF"/>
 <part name="CX1" library="rcl" deviceset="C-EU" device="C0603" value="22pF"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="5X3" value="16MHz"/>
+<part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="5X3" value="12MHz"/>
 <part name="H1" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.0"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="H2" library="holes" deviceset="MOUNT-PAD-ROUND" device="3.0"/>
