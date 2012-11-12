@@ -115,7 +115,7 @@
 <wire x1="38.7" y1="0" x2="38.7" y2="22.159" width="0" layer="20" curve="180"/>
 <wire x1="38.7" y1="22.159" x2="11.397" y2="22.159" width="0" layer="20"/>
 <text x="34.036" y="20.193" size="1.016" layer="26" font="vector" rot="MR0">http://helsinki.hacklab.fi</text>
-<text x="13.335" y="20.447" size="1.016" layer="25" font="vector">ATTiny4313 breakout board</text>
+<text x="13.335" y="20.447" size="1.016" layer="25" font="vector">ATTiny1634 breakout board</text>
 <text x="42.291" y="17.907" size="1.016" layer="25" font="vector" rot="R270">ISP</text>
 <text x="37.338" y="7.874" size="0.7112" layer="26" font="vector" rot="MR0">PC1 PC2 PA0 PA1 PA2 PA3 PA4 PA5 PA6 PA7</text>
 <text x="37.084" y="0.762" size="0.7112" layer="26" font="vector" rot="MR0">5V PC5 PC3 PC0 PB3 PB2 PB1 PB0 GND 5V</text>
