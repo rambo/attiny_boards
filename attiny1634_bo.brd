@@ -118,9 +118,9 @@
 <text x="13.335" y="20.447" size="1.016" layer="25" font="vector">ATTiny4313 breakout board</text>
 <text x="42.291" y="17.907" size="1.016" layer="25" font="vector" rot="R270">ISP</text>
 <text x="37.338" y="7.874" size="0.7112" layer="26" font="vector" rot="MR0">PXX PXX PA0 PA1 PA2 PA3 PA4 PA5 PA6 PA7</text>
-<text x="37.211" y="0.635" size="0.762" layer="26" font="vector" rot="MR0">5V PXX PXX PXX PXX PXX RX TX GND 5V</text>
+<text x="37.211" y="0.635" size="0.7112" layer="26" font="vector" rot="MR0">5V  PC5 PC3 PC0 PB3 PB2 PB1 PB0 GND 5V</text>
 <text x="12.319" y="7.874" size="0.7112" layer="25" font="vector">PA7 PA6 PA5 PA4 PA3 PA2 PA1 PA0 PXX PXX</text>
-<text x="12.7" y="0.762" size="0.7112" layer="25" font="vector">5V  GND TX  RX PXX PXX PXX PXX PXX  5V</text>
+<text x="12.7" y="0.762" size="0.7112" layer="25" font="vector">5V  GND PB0 PB1 PB2 PB2 PC0 PC4 PC5 5V</text>
 <text x="28.448" y="18.542" size="0.7112" layer="26" font="vector" rot="MR0">XTAL optional</text>
 <text x="12.954" y="16.129" size="0.7112" layer="25" font="vector" rot="R270">led optional</text>
 <text x="8.763" y="3.302" size="0.7112" layer="25" font="vector" rot="R90">10uF</text>
@@ -1783,15 +1783,19 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="12"/>
 <contactref element="CX1" pad="2"/>
 <contactref element="Y1" pad="1"/>
+<contactref element="JP1" pad="4"/>
 <wire x1="27.432" y1="13.247" x2="27.559" y2="19.685" width="0" layer="19" extent="1-16"/>
 <wire x1="25.345" y1="12.947" x2="27.432" y2="13.247" width="0" layer="19" extent="16-16"/>
+<wire x1="33.909" y1="3.302" x2="27.432" y2="13.247" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="PC4/XTAL2">
 <contactref element="U$1" pad="13"/>
 <contactref element="CX0" pad="2"/>
 <contactref element="Y1" pad="3"/>
+<contactref element="JP1" pad="6"/>
 <wire x1="21.645" y1="15.247" x2="26.289" y2="19.685" width="0" layer="19" extent="1-16"/>
 <wire x1="19.431" y1="14.82" x2="21.645" y2="15.247" width="0" layer="19" extent="16-16"/>
+<wire x1="31.369" y1="3.302" x2="21.645" y2="15.247" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="PA0">
 <contactref element="U$1" pad="9"/>
@@ -1832,12 +1836,6 @@ design rules under a new name.</description>
 <contactref element="JP1" pad="17"/>
 <contactref element="U$1" pad="3"/>
 <wire x1="16.129" y1="5.842" x2="19.939" y2="10.795" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$4">
-<contactref element="JP1" pad="6"/>
-</signal>
-<signal name="N$5">
-<contactref element="JP1" pad="4"/>
 </signal>
 <signal name="PB3/ADC8/OC1A">
 <contactref element="U$1" pad="18"/>
