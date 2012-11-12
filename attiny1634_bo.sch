@@ -4979,7 +4979,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pin name="PB1/ADC6/DI/SDA/RXD1" x="30.48" y="0" length="middle" rot="R180"/>
 <pin name="PB2/ADC7/MISO/TXD1/DO" x="30.48" y="-2.54" length="middle" rot="R180"/>
 <pin name="PB3/ADC8/OC1A" x="30.48" y="-5.08" length="middle" rot="R180"/>
-<pin name="PC0/ADC9/AC0A/XCK0" x="30.48" y="-7.62" length="middle" rot="R180"/>
+<pin name="PC0/ADC9/OC0A/XCK0" x="30.48" y="-7.62" length="middle" rot="R180"/>
 <pin name="PC1/ADC10/SCL/USCK/XCK1" x="30.48" y="-10.16" length="middle" rot="R180"/>
 <pin name="PC2/ADC11/CLK0" x="30.48" y="-12.7" length="middle" rot="R180"/>
 <pin name="PC3/-RESET" x="30.48" y="-15.24" length="middle" rot="R180"/>
@@ -5014,7 +5014,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <connect gate="G$1" pin="PB1/ADC6/DI/SDA/RXD1" pad="20"/>
 <connect gate="G$1" pin="PB2/ADC7/MISO/TXD1/DO" pad="19"/>
 <connect gate="G$1" pin="PB3/ADC8/OC1A" pad="18"/>
-<connect gate="G$1" pin="PC0/ADC9/AC0A/XCK0" pad="17"/>
+<connect gate="G$1" pin="PC0/ADC9/OC0A/XCK0" pad="17"/>
 <connect gate="G$1" pin="PC1/ADC10/SCL/USCK/XCK1" pad="16"/>
 <connect gate="G$1" pin="PC2/ADC11/CLK0" pad="15"/>
 <connect gate="G$1" pin="PC3/-RESET" pad="14"/>
@@ -5158,12 +5158,16 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="P+1" gate="1" pin="+5V"/>
 </segment>
 </net>
-<net name="PB1/ADC6" class="0">
+<net name="PB1/ADC6/RX1" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="96.52" y1="91.44" x2="104.14" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="PB1/ADC6/DI/SDA/RXD1"/>
 <wire x1="96.52" y1="71.12" x2="96.52" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="14"/>
+<wire x1="127" y1="55.88" x2="129.54" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PB0/MOSI/TX0/ADC5" class="0">
@@ -5174,6 +5178,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="U$1" gate="G$1" pin="PB0/MOSI/TXD0/ADC5"/>
 <wire x1="83.82" y1="93.98" x2="35.56" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="93.98" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="16"/>
+<wire x1="127" y1="53.34" x2="129.54" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PC1/SCL/ADC10" class="0">
@@ -5196,6 +5204,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="53.34" y1="81.28" x2="53.34" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="109.22" x2="58.42" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="12"/>
+<wire x1="127" y1="58.42" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PC3/-RESET" class="0">
@@ -5312,6 +5324,56 @@ We've spent an enormous amount of time creating and checking these footprints an
 <segment>
 <pinref part="U$1" gate="G$1" pin="PA6/ADC3/OC1B"/>
 <wire x1="35.56" y1="66.04" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="6"/>
+<wire x1="127" y1="66.04" x2="129.54" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="127" y1="68.58" x2="129.54" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PB3/ADC8/OC1A" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PB3/ADC8/OC1A"/>
+<wire x1="96.52" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="10"/>
+<wire x1="127" y1="60.96" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PC0/ADC9/OC0A" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PC0/ADC9/OC0A/XCK0"/>
+<wire x1="96.52" y1="63.5" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="8"/>
+<wire x1="127" y1="63.5" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="PC2/ADC11/CLK0"/>
+<wire x1="96.52" y1="58.42" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="3"/>
+<wire x1="119.38" y1="68.58" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="1"/>
+<wire x1="119.38" y1="71.12" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -180,7 +180,7 @@
 <pin name="PB1/ADC6/DI/SDA/RXD1" x="30.48" y="0" length="middle" rot="R180"/>
 <pin name="PB2/ADC7/MISO/TXD1/DO" x="30.48" y="-2.54" length="middle" rot="R180"/>
 <pin name="PB3/ADC8/OC1A" x="30.48" y="-5.08" length="middle" rot="R180"/>
-<pin name="PC0/ADC9/AC0A/XCK0" x="30.48" y="-7.62" length="middle" rot="R180"/>
+<pin name="PC0/ADC9/OC0A/XCK0" x="30.48" y="-7.62" length="middle" rot="R180"/>
 <pin name="PC1/ADC10/SCL/USCK/XCK1" x="30.48" y="-10.16" length="middle" rot="R180"/>
 <pin name="PC2/ADC11/CLK0" x="30.48" y="-12.7" length="middle" rot="R180"/>
 <pin name="PC3/-RESET" x="30.48" y="-15.24" length="middle" rot="R180"/>
@@ -215,7 +215,7 @@
 <connect gate="G$1" pin="PB1/ADC6/DI/SDA/RXD1" pad="20"/>
 <connect gate="G$1" pin="PB2/ADC7/MISO/TXD1/DO" pad="19"/>
 <connect gate="G$1" pin="PB3/ADC8/OC1A" pad="18"/>
-<connect gate="G$1" pin="PC0/ADC9/AC0A/XCK0" pad="17"/>
+<connect gate="G$1" pin="PC0/ADC9/OC0A/XCK0" pad="17"/>
 <connect gate="G$1" pin="PC1/ADC10/SCL/USCK/XCK1" pad="16"/>
 <connect gate="G$1" pin="PC2/ADC11/CLK0" pad="15"/>
 <connect gate="G$1" pin="PC3/-RESET" pad="14"/>
