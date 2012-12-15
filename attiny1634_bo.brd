@@ -2138,6 +2138,48 @@ design rules under a new name.</description>
 <contactref element="FTDI" pad="2"/>
 </signal>
 </signals>
+<errors>
+<approved hash="3,1,d2bb137b14dbd51b"/>
+<approved hash="3,16,d2bb137b14dbd51b"/>
+<approved hash="18,29,5fa599b791b057a2"/>
+<approved hash="18,29,3760f7928fa44b65"/>
+<approved hash="18,29,3940bef8ec611fe6"/>
+<approved hash="18,29,d543a8db79f71883"/>
+<approved hash="18,29,21813ea1669e5d06"/>
+<approved hash="18,29,54bb361674345af2"/>
+<approved hash="18,29,1bfbe804942a63e6"/>
+<approved hash="18,29,c1aabd1478f10c0a"/>
+<approved hash="18,29,22fbe30b9b0f5ece"/>
+<approved hash="18,29,2eafa971ef630b2d"/>
+<approved hash="18,29,430021db74664d79"/>
+<approved hash="18,29,353a2a2c66c849cf"/>
+<approved hash="18,29,0e50fcaf80b3767d"/>
+<approved hash="18,29,129695caec2534f4"/>
+<approved hash="18,29,2212eca094d661f3"/>
+<approved hash="18,29,cc35b16d79b33e51"/>
+<approved hash="18,29,38931877665a4450"/>
+<approved hash="18,29,7fe91de4741071c4"/>
+<approved hash="18,29,316df3768f187694"/>
+<approved hash="18,29,be11c3d17a6b73cd"/>
+<approved hash="18,29,47f2c03eebe561d0"/>
+<approved hash="18,29,4f569d3ce6ea339f"/>
+<approved hash="18,29,4acf5513654236ac"/>
+<approved hash="18,29,2a4d488073502430"/>
+<approved hash="18,29,6301814afe841bd0"/>
+<approved hash="18,29,5c8bdbc5ec2b7af9"/>
+<approved hash="18,29,b1f6cf7879b97c66"/>
+<approved hash="18,29,501f9ea7e9232ffa"/>
+<approved hash="18,29,45565a4866403a5b"/>
+<approved hash="18,29,31e453f7741e3fc5"/>
+<approved hash="18,29,7f648e83fd1f0499"/>
+<approved hash="18,29,3519b29fed23139f"/>
+<approved hash="18,29,3bc98a75f29d47b8"/>
+<approved hash="18,29,a978d40a7ab9673c"/>
+<approved hash="18,29,5e68411e66e02135"/>
+<approved hash="18,29,58d23a8d75a65697"/>
+<approved hash="18,29,1726953de9cd6f4f"/>
+<approved hash="18,29,a089a89fa0b6a8a0"/>
+</errors>
 </board>
 </drawing>
 </eagle>
