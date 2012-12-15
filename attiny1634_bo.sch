@@ -5590,9 +5590,9 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="J1" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="NS"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
-<part name="C1" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="10uF"/>
 <part name="LED1" library="SparkFun-LED" deviceset="LED" device="0603"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="10uF"/>
 <part name="CX0" library="rcl" deviceset="C-EU" device="C0603" value="22pF"/>
 <part name="CX1" library="rcl" deviceset="C-EU" device="C0603" value="22pF"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
@@ -5977,6 +5977,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 </sheets>
 <errors>
 <approved hash="104,1,96.52,48.26,U$1,VCC,+5V,,,"/>
+<approved hash="106,1,-2.54,73.66,CTS,,,,,"/>
 <approved hash="115,1,107.95,91.1183,LED1,,,,,"/>
 <approved hash="115,1,123.148,61.0912,JP1,,,,,"/>
 <approved hash="115,1,-2.77707,76.0688,FTDI,,,,,"/>
