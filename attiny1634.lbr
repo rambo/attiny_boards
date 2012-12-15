@@ -167,7 +167,7 @@
 </packages>
 <symbols>
 <symbol name="ATTINY1634">
-<pin name="PB0/MOSI/TXD0/ADC5" x="-30.48" y="0" length="middle"/>
+<pin name="PB0/TXD0/ADC5" x="-30.48" y="0" length="middle"/>
 <pin name="PA7/RXD0/ADC4" x="-30.48" y="-2.54" length="middle"/>
 <pin name="PA6/ADC3/OC1B" x="-30.48" y="-5.08" length="middle"/>
 <pin name="PA5/ADC2/OC0B" x="-30.48" y="-7.62" length="middle"/>
@@ -177,20 +177,20 @@
 <pin name="PA1/AIN0" x="-30.48" y="-17.78" length="middle"/>
 <pin name="PA0/AREF" x="-30.48" y="-20.32" length="middle"/>
 <pin name="GND" x="-30.48" y="-22.86" length="middle" direction="pwr"/>
-<pin name="PB1/ADC6/DI/SDA/RXD1" x="30.48" y="0" length="middle" rot="R180"/>
-<pin name="PB2/ADC7/MISO/TXD1/DO" x="30.48" y="-2.54" length="middle" rot="R180"/>
-<pin name="PB3/ADC8/OC1A" x="30.48" y="-5.08" length="middle" rot="R180"/>
-<pin name="PC0/ADC9/OC0A/XCK0" x="30.48" y="-7.62" length="middle" rot="R180"/>
-<pin name="PC1/ADC10/SCL/USCK/XCK1" x="30.48" y="-10.16" length="middle" rot="R180"/>
-<pin name="PC2/ADC11/CLK0" x="30.48" y="-12.7" length="middle" rot="R180"/>
-<pin name="PC3/-RESET" x="30.48" y="-15.24" length="middle" rot="R180"/>
-<pin name="PC4/XTAL2" x="30.48" y="-17.78" length="middle" rot="R180"/>
-<pin name="PC5/XTAL1" x="30.48" y="-20.32" length="middle" rot="R180"/>
-<pin name="VCC" x="30.48" y="-22.86" length="middle" direction="pwr" rot="R180"/>
+<pin name="RXD1/ADC6/DI/SDA/MOSI/PB1" x="40.64" y="0" length="middle" rot="R180"/>
+<pin name="ADC7/MISO/TXD1/DO/PB2" x="40.64" y="-2.54" length="middle" rot="R180"/>
+<pin name="ADC8/OC1A/PB3" x="40.64" y="-5.08" length="middle" rot="R180"/>
+<pin name="ADC9/OC0A/XCK0/PC0" x="40.64" y="-7.62" length="middle" rot="R180"/>
+<pin name="ADC10/SCL/USCK/XCK1/PC1" x="40.64" y="-10.16" length="middle" rot="R180"/>
+<pin name="ADC11/CLK0/PC2" x="40.64" y="-12.7" length="middle" rot="R180"/>
+<pin name="-RESET/PC3" x="40.64" y="-15.24" length="middle" rot="R180"/>
+<pin name="XTAL2/PC4" x="40.64" y="-17.78" length="middle" rot="R180"/>
+<pin name="XTAL1/PC5" x="40.64" y="-20.32" length="middle" rot="R180"/>
+<pin name="VCC" x="40.64" y="-22.86" length="middle" direction="pwr" rot="R180"/>
 <wire x1="-25.4" y1="2.54" x2="-25.4" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="-25.4" y1="-27.94" x2="25.4" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-27.94" x2="25.4" y2="2.54" width="0.254" layer="94"/>
-<wire x1="25.4" y1="2.54" x2="-25.4" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-27.94" x2="35.56" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-27.94" x2="35.56" y2="2.54" width="0.254" layer="94"/>
+<wire x1="35.56" y1="2.54" x2="-25.4" y2="2.54" width="0.254" layer="94"/>
 <text x="-25.4" y="5.08" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
@@ -202,6 +202,12 @@
 <devices>
 <device name="" package="SOIC20">
 <connects>
+<connect gate="G$1" pin="-RESET/PC3" pad="14"/>
+<connect gate="G$1" pin="ADC10/SCL/USCK/XCK1/PC1" pad="16"/>
+<connect gate="G$1" pin="ADC11/CLK0/PC2" pad="15"/>
+<connect gate="G$1" pin="ADC7/MISO/TXD1/DO/PB2" pad="19"/>
+<connect gate="G$1" pin="ADC8/OC1A/PB3" pad="18"/>
+<connect gate="G$1" pin="ADC9/OC0A/XCK0/PC0" pad="17"/>
 <connect gate="G$1" pin="GND" pad="10"/>
 <connect gate="G$1" pin="PA0/AREF" pad="9"/>
 <connect gate="G$1" pin="PA1/AIN0" pad="8"/>
@@ -211,17 +217,11 @@
 <connect gate="G$1" pin="PA5/ADC2/OC0B" pad="4"/>
 <connect gate="G$1" pin="PA6/ADC3/OC1B" pad="3"/>
 <connect gate="G$1" pin="PA7/RXD0/ADC4" pad="2"/>
-<connect gate="G$1" pin="PB0/MOSI/TXD0/ADC5" pad="1"/>
-<connect gate="G$1" pin="PB1/ADC6/DI/SDA/RXD1" pad="20"/>
-<connect gate="G$1" pin="PB2/ADC7/MISO/TXD1/DO" pad="19"/>
-<connect gate="G$1" pin="PB3/ADC8/OC1A" pad="18"/>
-<connect gate="G$1" pin="PC0/ADC9/OC0A/XCK0" pad="17"/>
-<connect gate="G$1" pin="PC1/ADC10/SCL/USCK/XCK1" pad="16"/>
-<connect gate="G$1" pin="PC2/ADC11/CLK0" pad="15"/>
-<connect gate="G$1" pin="PC3/-RESET" pad="14"/>
-<connect gate="G$1" pin="PC4/XTAL2" pad="13"/>
-<connect gate="G$1" pin="PC5/XTAL1" pad="12"/>
+<connect gate="G$1" pin="PB0/TXD0/ADC5" pad="1"/>
+<connect gate="G$1" pin="RXD1/ADC6/DI/SDA/MOSI/PB1" pad="20"/>
 <connect gate="G$1" pin="VCC" pad="11"/>
+<connect gate="G$1" pin="XTAL1/PC5" pad="12"/>
+<connect gate="G$1" pin="XTAL2/PC4" pad="13"/>
 </connects>
 <technologies>
 <technology name=""/>
