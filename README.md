@@ -31,6 +31,5 @@ than others but I decided to get a genuine AVRISPmkII after spending an evening 
 ## TODO
 
   - Add diodes to protect against reverse and over -voltage (with indicator led ?)
-  - In the 85/84 boards move the ISP header a bit farther away from the port header so there's room for both connectors while having both headers on the same side of the board.
   - simple board to break the ISP header into normal 2.54mm pitch pogo-pins in the same order (those pins unfortunately do not fit)
     into the cable connector directly), did this on stripboard and then realized dotboard would have been much better.
