@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -164,6 +164,63 @@
 <rectangle x1="-0.835" y1="3.74" x2="-0.435" y2="5.14" layer="51"/>
 <rectangle x1="-2.105" y1="3.74" x2="-1.705" y2="5.14" layer="51"/>
 </package>
+<package name="MLF">
+</package>
+<package name="MLF20">
+<description>&lt;b&gt;HP-VFQFP-N20&lt;/b&gt; Micro Lead Frame package (MLF)</description>
+<wire x1="-2.375" y1="2.05" x2="-2.05" y2="2.375" width="0.254" layer="21"/>
+<wire x1="-2.05" y1="2.375" x2="2.05" y2="2.375" width="0.254" layer="51"/>
+<wire x1="2.05" y1="-2.375" x2="-2.05" y2="-2.375" width="0.254" layer="51"/>
+<wire x1="-2.05" y1="-2.375" x2="-2.375" y2="-2.05" width="0.254" layer="21"/>
+<wire x1="-2.375" y1="-2.05" x2="-2.375" y2="2.05" width="0.254" layer="51"/>
+<wire x1="2.375" y1="2.05" x2="2.375" y2="-2.05" width="0.254" layer="51"/>
+<wire x1="2.05" y1="2.375" x2="2.375" y2="2.05" width="0.254" layer="21"/>
+<wire x1="2.375" y1="-2.05" x2="2.05" y2="-2.375" width="0.254" layer="21"/>
+<circle x="-1.55" y="1.55" radius="0.15" width="0.254" layer="21"/>
+<smd name="1" x="-2.25" y="1.3" dx="0.9" dy="0.35" layer="1" roundness="50"/>
+<smd name="2" x="-2.25" y="0.65" dx="0.9" dy="0.35" layer="1" roundness="50"/>
+<smd name="3" x="-2.25" y="0" dx="0.9" dy="0.35" layer="1" roundness="50"/>
+<smd name="4" x="-2.25" y="-0.65" dx="0.9" dy="0.35" layer="1" roundness="50"/>
+<smd name="5" x="-2.25" y="-1.3" dx="0.9" dy="0.35" layer="1" roundness="50"/>
+<smd name="6" x="-1.3" y="-2.25" dx="0.35" dy="0.9" layer="1" roundness="50"/>
+<smd name="7" x="-0.65" y="-2.25" dx="0.35" dy="0.9" layer="1" roundness="50"/>
+<smd name="8" x="0" y="-2.25" dx="0.35" dy="0.9" layer="1" roundness="50"/>
+<smd name="9" x="0.65" y="-2.25" dx="0.35" dy="0.9" layer="1" roundness="50"/>
+<smd name="10" x="1.3" y="-2.25" dx="0.35" dy="0.9" layer="1" roundness="50"/>
+<smd name="11" x="2.25" y="-1.3" dx="0.9" dy="0.35" layer="1" roundness="50"/>
+<smd name="12" x="2.25" y="-0.65" dx="0.9" dy="0.35" layer="1" roundness="50"/>
+<smd name="13" x="2.25" y="0" dx="0.9" dy="0.35" layer="1" roundness="50"/>
+<smd name="14" x="2.25" y="0.65" dx="0.9" dy="0.35" layer="1" roundness="50"/>
+<smd name="15" x="2.25" y="1.3" dx="0.9" dy="0.35" layer="1" roundness="50"/>
+<smd name="16" x="1.3" y="2.25" dx="0.35" dy="0.9" layer="1" roundness="50"/>
+<smd name="17" x="0.65" y="2.25" dx="0.35" dy="0.9" layer="1" roundness="50"/>
+<smd name="18" x="0" y="2.25" dx="0.35" dy="0.9" layer="1" roundness="50"/>
+<smd name="19" x="-0.65" y="2.25" dx="0.35" dy="0.9" layer="1" roundness="50"/>
+<smd name="20" x="-1.3" y="2.25" dx="0.35" dy="0.9" layer="1" roundness="50"/>
+<text x="-2.54" y="3.175" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.35" y1="1.15" x2="-1.9" y2="1.45" layer="51"/>
+<rectangle x1="-2.35" y1="0.5" x2="-1.9" y2="0.8" layer="51"/>
+<rectangle x1="-2.35" y1="-0.15" x2="-1.9" y2="0.15" layer="51"/>
+<rectangle x1="-2.35" y1="-0.8" x2="-1.9" y2="-0.5" layer="51"/>
+<rectangle x1="-2.35" y1="-1.45" x2="-1.9" y2="-1.15" layer="51"/>
+<rectangle x1="-1.45" y1="-2.35" x2="-1.15" y2="-1.9" layer="51"/>
+<rectangle x1="-0.8" y1="-2.35" x2="-0.5" y2="-1.9" layer="51"/>
+<rectangle x1="-0.15" y1="-2.35" x2="0.15" y2="-1.9" layer="51"/>
+<rectangle x1="0.5" y1="-2.35" x2="0.8" y2="-1.9" layer="51"/>
+<rectangle x1="1.15" y1="-2.35" x2="1.45" y2="-1.9" layer="51"/>
+<rectangle x1="1.9" y1="-1.45" x2="2.35" y2="-1.15" layer="51"/>
+<rectangle x1="1.9" y1="-0.8" x2="2.35" y2="-0.5" layer="51"/>
+<rectangle x1="1.9" y1="-0.15" x2="2.35" y2="0.15" layer="51"/>
+<rectangle x1="1.9" y1="0.5" x2="2.35" y2="0.8" layer="51"/>
+<rectangle x1="1.9" y1="1.15" x2="2.35" y2="1.45" layer="51"/>
+<rectangle x1="1.15" y1="1.9" x2="1.45" y2="2.35" layer="51"/>
+<rectangle x1="0.5" y1="1.9" x2="0.8" y2="2.35" layer="51"/>
+<rectangle x1="-0.15" y1="1.9" x2="0.15" y2="2.35" layer="51"/>
+<rectangle x1="-0.8" y1="1.9" x2="-0.5" y2="2.35" layer="51"/>
+<rectangle x1="-1.45" y1="1.9" x2="-1.15" y2="2.35" layer="51"/>
+<smd name="GND" x="0" y="0" dx="2.54" dy="2.54" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ATTINY1634">
@@ -195,12 +252,12 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ATTINY1634">
+<deviceset name="ATTINY1634" prefix="MLF">
 <gates>
 <gate name="G$1" symbol="ATTINY1634" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOIC20">
+<device name="SOIC20" package="SOIC20">
 <connects>
 <connect gate="G$1" pin="-RESET/PC3" pad="14"/>
 <connect gate="G$1" pin="ADC10/SCL/USCK/XCK1/PC1" pad="16"/>
@@ -222,6 +279,33 @@
 <connect gate="G$1" pin="VCC" pad="11"/>
 <connect gate="G$1" pin="XTAL1/PC5" pad="12"/>
 <connect gate="G$1" pin="XTAL2/PC4" pad="13"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MLF20" package="MLF20">
+<connects>
+<connect gate="G$1" pin="-RESET/PC3" pad="12"/>
+<connect gate="G$1" pin="ADC10/SCL/USCK/XCK1/PC1" pad="14"/>
+<connect gate="G$1" pin="ADC11/CLK0/PC2" pad="13"/>
+<connect gate="G$1" pin="ADC7/MISO/TXD1/DO/PB2" pad="17"/>
+<connect gate="G$1" pin="ADC8/OC1A/PB3" pad="16"/>
+<connect gate="G$1" pin="ADC9/OC0A/XCK0/PC0" pad="15"/>
+<connect gate="G$1" pin="GND" pad="8 GND"/>
+<connect gate="G$1" pin="PA0/AREF" pad="7"/>
+<connect gate="G$1" pin="PA1/AIN0" pad="6"/>
+<connect gate="G$1" pin="PA2/AIN1" pad="5"/>
+<connect gate="G$1" pin="PA3/ADC0/T1/SNS" pad="4"/>
+<connect gate="G$1" pin="PA4/ADC1/T0" pad="3"/>
+<connect gate="G$1" pin="PA5/ADC2/OC0B" pad="2"/>
+<connect gate="G$1" pin="PA6/ADC3/OC1B" pad="1"/>
+<connect gate="G$1" pin="PA7/RXD0/ADC4" pad="20"/>
+<connect gate="G$1" pin="PB0/TXD0/ADC5" pad="19"/>
+<connect gate="G$1" pin="RXD1/ADC6/DI/SDA/MOSI/PB1" pad="18"/>
+<connect gate="G$1" pin="VCC" pad="9"/>
+<connect gate="G$1" pin="XTAL1/PC5" pad="10"/>
+<connect gate="G$1" pin="XTAL2/PC4" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
